@@ -1,4 +1,5 @@
-package Usuario;
+package usuario;
+
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

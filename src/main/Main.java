@@ -39,7 +39,7 @@ public class Main {
                 "Cliente",
                 "cliente@gmail.com",
                 "PASS3");
-        System.out.println("PRUEBA CLIENTE #1: " + cliente1.toString());
+        System.out.println("PRUEBA CLIENTE #1: " + cliente1.toString() + "\n");
 
         /**
          * testeo inicial sobre libros y campos
@@ -55,7 +55,8 @@ public class Main {
                 "10#E20",
                 2000.00,
                 20);
-        System.out.println("PRUEBA LIBRO #1: " + cliente1.toString());
+
+        System.out.println("PRUEBA LIBRO #1: " + libro1.toString());
 
     }
 }

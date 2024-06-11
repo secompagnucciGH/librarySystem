@@ -19,9 +19,9 @@ public class Libro {
 
 
 
-    //    @Override
-//    public String toString() {
-//        long var10000 = this.getID();
-//        return "Libro(ID=" + var10000 + ", titulo=" + this.getTitulo() + ", autor=" + this.getAutor() + ", categoria=" + this.getCategoria() + ", ISBN=" + this.getISBN() + ", precio= $ " + this.getPrecio() + ", stock=" + this.getStock() + ")";
-//    }
+        @Override
+    public String toString() {
+        long var10000 = this.getID();
+        return "Libro(ID= " + var10000 + ", titulo= " + this.getTitulo() + ", autor= " + this.getAutor() + ", categoria= " + this.getCategoria() + ", ISBN= " + this.getISBN() + ", precio= $ " + this.getPrecio() + ", stock= " + this.getStock() + ")";
+    }
 }

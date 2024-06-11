@@ -6,3 +6,12 @@ USUARIO --
           ---> ADMINISTRADOR
           |--> EMPLEADO
           ---> CLIENTE
+
+   Anotaciones de Lombok
+
+          @Getter y @Setter: Generan los métodos getter y setter para todos los campos.
+          @ToString: Genera un método toString que incluye todos los campos.
+          @EqualsAndHashCode: Genera los métodos equals y hashCode que incluyen todos los campos.
+          @AllArgsConstructor: Genera un constructor que toma un parámetro para cada campo de la clase.
+          @Data: Es una anotación que combina las funcionalidades de
+          @Getter, @Setter, @ToString, @EqualsAndHashCode y @RequiredArgsConstructor.

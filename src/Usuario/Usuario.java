@@ -1,26 +1,8 @@
-
 package usuario;
 
-import lombok.*;
-
-package usuario;
-
-import lombok.*;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
-import lombok.EqualsAndHashCode;
-import lombok.AllArgsConstructor;
-
-
-@Getter
-@Setter
-@ToString
-@EqualsAndHashCode
-@AllArgsConstructor
+import lombok.Data;
 
 @Data
-
 
 public abstract class Usuario {
     private Integer id;
@@ -32,8 +14,13 @@ public abstract class Usuario {
     private Rol rol;
 
 
-
-    public Usuario(Integer id, String dni, String nombre, String apellido, String correoElectronico, String contrasena) {
+    public Usuario(Integer id, String dni, String nombre, String apellido, String correoElectronico, String contrasena, Rol rol) {
+        this.id = id;
+        this.dni = dni;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.correoElectronico = correoElectronico;
+        this.contrasena = contrasena;
+        this.rol = rol;
     }
-
 }

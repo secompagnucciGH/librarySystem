@@ -1,0 +1,8 @@
+package usuario, para modelar los tipos de usuarios dentro del proyecto.
+
+USUARIO --
+          |
+          |
+          ---> ADMINISTRADOR
+          |--> EMPLEADO
+          ---> CLIENTE

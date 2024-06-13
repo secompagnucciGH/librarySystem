@@ -12,7 +12,7 @@ import lombok.ToString;
 @ToString(callSuper = true)
 public class Empleado extends Usuario{
 
-    public Empleado(Integer id, String dni, String nombre, String apellido, String correoElectronico, String contrasena) {
-        super(id, dni, nombre, apellido, correoElectronico, contrasena, Rol.EMPLEADO);
+    public Empleado(Integer id, String dni, String nombre, String apellido, String correoElectronico, String contrasena, Rol rol) {
+        super(id, dni, nombre, apellido, correoElectronico, contrasena, rol);
     }
 }

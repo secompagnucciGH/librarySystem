@@ -1,8 +1,12 @@
 package usuario;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 
 public abstract class Usuario {
     private Integer id;
@@ -12,15 +16,4 @@ public abstract class Usuario {
     private String correoElectronico;
     private String contrasena;
     private Rol rol;
-
-
-    public Usuario(Integer id, String dni, String nombre, String apellido, String correoElectronico, String contrasena, Rol rol) {
-        this.id = id;
-        this.dni = dni;
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.correoElectronico = correoElectronico;
-        this.contrasena = contrasena;
-        this.rol = rol;
-    }
 }

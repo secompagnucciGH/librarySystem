@@ -9,7 +9,7 @@ import lombok.ToString;
 @ToString(callSuper = true)
 public class Administrador extends Usuario {
 
-    public Administrador(Integer id, String dni, String nombre, String apellido, String correoElectronico, String contrasena) {
-        super(id, dni, nombre, apellido, correoElectronico, contrasena, Rol.ADMINISTRADOR);
+    public Administrador(Integer id, String dni, String nombre, String apellido, String correoElectronico, String contrasena, Rol rol) {
+        super(id, dni, nombre, apellido, correoElectronico, contrasena, rol);
     }
 }

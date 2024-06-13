@@ -1,1 +1,2 @@
-package contenedor de las clases libro y categoria.
+package contenedor de las clases libro, que permite declarar nuevos libros e ingresarlos a la lista.
+lista libros, que contiene todos los libros ingresados y categoria que guarda la categoria de cada libro.

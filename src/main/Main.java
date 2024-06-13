@@ -2,6 +2,7 @@ package main;
 
 import biblioteca.Categoria;
 import biblioteca.Libro;
+import biblioteca.ListaLibros;
 import usuario.Administrador;
 import usuario.Empleado;
 import usuario.Cliente;
@@ -57,5 +58,23 @@ public class Main {
                 2000.00,
                 20);
         System.out.println("PRUEBA LIBRO #1: " + libro1.toString());
+
+        // Crear una instancia persistente de ListaLibros
+        ListaLibros lista = new ListaLibros();
+
+        // Agregamos libro1 a la lista y creamos un libro2 personalizado
+        libro1.registrarLibro(lista);
+
+        // libro personalizado
+        Libro libro2 = new Libro();
+
+        libro2.registrarLibro(lista);
+
+        System.out.println("PRUEBA LIBRO #2: " + libro1.toString());
+
+        lista.getLista();
+//        Reserva res1 = new Reserva();
+//
+//        res1.gestionarReserva();
     }
 }

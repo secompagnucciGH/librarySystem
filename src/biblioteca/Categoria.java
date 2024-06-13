@@ -2,5 +2,7 @@ package biblioteca;
 
 public enum Categoria {
     SinCategoria,
-    CategoriaPrueba,
+    FICCION,
+    NO_FICCION,
+    OTRO
 }
